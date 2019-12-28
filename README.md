@@ -1,3 +1,12 @@
+Check this project out here:
+
+Client:
+https://condescending-boyd-0878ca.netlify.com
+
+Server:
+https://myo-react-chat.herokuapp.com/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
