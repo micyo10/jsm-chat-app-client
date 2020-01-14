@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html, body {
   font-family: 'Roboto', sans-serif;
   padding: 0;
@@ -6,10 +10,6 @@ html, body {
 
 #root {
   height: 100vh;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .joinOuterContainer {
@@ -22,6 +22,7 @@ html, body {
 }
 
 .joinInnerContainer {
+  min-width:320px;
   width: 20%;
 }
 
@@ -39,33 +40,23 @@ html, body {
 }
 
 .button {
-    color: #fff !important;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #2979FF;
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    width: 100%;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979FF;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
 }
 
-.button:hover{cursor:pointer;}
+.button:hover{
+  cursor:pointer;
+}
 
 .mt-20 {
   margin-top: 20px;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .joinOuterContainer {
-    height: 100%;
-  }
-
-  .joinInnerContainer {
-    width: 90%;
-  }
-
-
 }
 
 button:focus {
